@@ -5,7 +5,7 @@
 En la actualidad, las organizaciones necesitan extraer información rápidamente de grandes volúmenes de documentos, incluyendo PDFs confidenciales. Los métodos tradicionales pueden ser ineficientes y propensos a errores, como las alucinaciones en modelos de lenguaje. Para mejorar la productividad y reducir estas alucinaciones, se desarrolla un chatbot que utiliza la **Generación Aumentada por Recuperación (RAG)** y **Llama 3** para permitir consultas eficientes y seguras de documentos PDF locales.
 
 <p align="center">
-  <img src="https://github.com/cshernandez9702/mmia_usfq_nlp/blob/main/1.png" alt="Diagrama de Flujo del Proceso RAG" width="400">
+  <img src="https://github.com/cshernandez9702/mmia_usfq_nlp/raw/main/1.png" alt="Diagrama de Flujo del Proceso RAG" width="400">
 </p>
 
 
@@ -14,7 +14,7 @@ En la actualidad, las organizaciones necesitan extraer información rápidamente
 **RAG** es un método que permite recuperar documentos relevantes de una base de conocimiento y los utilizarlos como contexto para generar respuestas a las consultas de los usuarios.
 
 <figure style="text-align: center;">
-  <img src="https://github.com/cshernandez9702/mmia_usfq_nlp/blob/main/2.png" alt="Diagrama de Flujo del Proceso RAG" width="1200">
+  <img src="https://github.com/cshernandez9702/mmia_usfq_nlp/raw/main/2.png" alt="Diagrama de Flujo del Proceso RAG" width="1200">
   <figcaption>
     <em>Diagrama de Flujo del Proceso RAG. Fuente: <a href="https://blog.langchain.dev/semi-structured-multi-modal-rag/">Enlace a la fuente</a></em>
   </figcaption>
@@ -154,7 +154,7 @@ def setup_vectorstore_unstructured(doc_text, table_text, model_name="sentence-tr
 - **Vector Store**: Chroma almacena los embeddings y facilita la búsqueda de similitud durante la recuperación.
 
 <figure style="text-align: center ;">
-  <img src="https://github.com/cshernandez9702/mmia_usfq_nlp/blob/main/3.png" alt="" width="400">
+  <img src="https://github.com/cshernandez9702/mmia_usfq_nlp/raw/main/3.png" alt="" width="400">
   <figcaption>
     <em>Diagrama de Flujo del Proceso RAG. Fuente: <a href="https://tech-depth-and-breadth.medium.com/my-notes-from-deeplearning-ais-course-on-advanced-retrieval-for-ai-with-chroma-2dbe24cc1c91">Enlace a la fuente</a></em>
   </figcaption>
